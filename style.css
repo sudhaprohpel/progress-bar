@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+.overview {
+    background-color: #fff;
+    position: relative;
+    padding: 5% 0;
+}
+
+.progress-bar-container {
+    position: absolute;
+    height: 90%;
+    width: 10px;
+    background-color: lightgrey;
+    left: 50%;
+    top: 10%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px;
+}
